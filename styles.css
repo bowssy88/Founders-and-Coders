@@ -1,0 +1,14 @@
+
+body {
+   background-image: url("https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg");
+
+   /* This will set the background image as 'static' means scrolling won't affect it */
+   background-attachment: fixed;
+
+   /* Let's disable the repetition */
+   background-repeat: no-repeat;
+
+   /* Scale the image to 'fit' the screen */
+   background-size: cover;
+
+}
