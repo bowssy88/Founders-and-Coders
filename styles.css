@@ -1,6 +1,6 @@
 
 body {
-   background-image: url("https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg");
+   background-image: url("pictures/sky2.svg");
 
    /* This will set the background image as 'static' means scrolling won't affect it */
    background-attachment: fixed;
@@ -10,5 +10,103 @@ body {
 
    /* Scale the image to 'fit' the screen */
    background-size: cover;
+}
 
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+#banner {
+text-align:center;
+color: lightpink;
+font-size:37px;
+font-family:monospace;
+border:5px solid white;
+background-color:rgba(0,0,0,0.7);
+}
+
+#intro {
+  text-align:center;
+  color:orange;
+  font-size:34px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+#speech{
+text-align:center;
+color:black;
+font-family:monospace;
+font-size: 23px;
+background-color: white;
+padding: 5px;
+width: 100vw
+}
+
+#poetry-btn {
+  padding:10px;
+  background-color: rgba(0,0,0,0.7) ;
+  color:lightpink;
+  font-family:monospace ;
+  font-weight: bold;
+  text-decoration:none;
+  border-radius:5px;
+}
+#poetry-btn:HOVER {
+  background-color: orange;
+}
+
+#poem {
+text-align: center;
+color:white;
+font-family:monospace;
+  background-color: rgba(0,0,0,0.7);
+}
+
+
+#speech-bubble{
+  position: relative;
+  left: 200px;
+animation: move 5s linear infinite;
+
+}
+
+@keyframes move {
+  0% {
+    left: 200px;
+  }
+  50% {
+    left: 1000px;
+  }
+  100% {
+    left: 1700px;
+  }
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.bg-transparent{
+  padding:5px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  font-family: monospace;
 }
