@@ -1,14 +1,8 @@
 
 body {
    background-image: url("pictures/sky2.svg");
-
-   /* This will set the background image as 'static' means scrolling won't affect it */
    background-attachment: fixed;
-
-   /* Let's disable the repetition */
    background-repeat: no-repeat;
-
-   /* Scale the image to 'fit' the screen */
    background-size: cover;
 }
 
@@ -27,7 +21,7 @@ background-color:rgba(0,0,0,0.7);
 
 #intro {
   text-align:center;
-  color:orange;
+  color:white;
   font-size:34px;
   font-family: 'Baloo Bhaina', cursive;
 }
@@ -62,6 +56,7 @@ color:white;
 font-family:monospace;
   background-color: rgba(0,0,0,0.7);
   font-size: 28px;
+  border:5px solid lightpink;
 }
 
 
